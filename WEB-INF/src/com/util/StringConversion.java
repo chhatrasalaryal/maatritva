@@ -1,0 +1,37 @@
+package com.util;
+
+public class StringConversion {
+	
+	
+	
+	
+public static int	Conversion(String str)
+	{
+		
+	
+		int conv=0; 
+		if(str==null) 
+		{ 
+			str="0"; 
+		} 
+		else if((str.trim()).equals("null")) 
+		{ 
+			str="0"; 
+		} 
+		else if(str.equals("")) 
+		{ 
+			str="0"; 
+		} 
+		try
+		{ 
+			conv=Integer.parseInt(str); 
+		} 
+		catch(Exception e) 
+		{ 
+		} 
+		return conv; 
+		
+	
+	}
+
+}

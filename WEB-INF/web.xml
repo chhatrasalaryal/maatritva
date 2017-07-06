@@ -1,0 +1,226 @@
+<web-app>
+
+   
+
+
+	<servlet>
+		<servlet-name>AdminLogin</servlet-name>
+		<servlet-class>com.admin.AdminLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminLogin</servlet-name>
+		<url-pattern>/AdminLogin</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>UserRegister</servlet-name>
+		<servlet-class>com.user.UserRegister</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserRegister</servlet-name>
+		<url-pattern>/UserRegister</url-pattern>
+	</servlet-mapping>
+	
+		
+	<servlet>
+		<servlet-name>ChangePass</servlet-name>
+		<servlet-class>com.admin.ChangePass</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangePass</servlet-name>
+		<url-pattern>/ChangePass</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Expert</servlet-name>
+		<servlet-class>com.admin.Expert</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Expert</servlet-name>
+		<url-pattern>/Expert</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Users</servlet-name>
+		<servlet-class>com.admin.Users</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Users</servlet-name>
+		<url-pattern>/Users</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>Gynaecologist</servlet-name>
+		<servlet-class>com.admin.Gynaecologist</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Gynaecologist</servlet-name>
+		<url-pattern>/Gynaecologist</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>Gyredirect</servlet-name>
+		<servlet-class>com.admin.Gyredirect</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Gyredirect</servlet-name>
+		<url-pattern>/Gyredirect</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ManageGyano</servlet-name>
+		<servlet-class>com.admin.ManageGyano</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ManageGyano</servlet-name>
+		<url-pattern>/ManageGyano</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>EditGyaeno</servlet-name>
+		<servlet-class>com.admin.EditGyaeno</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditGyaeno</servlet-name>
+		<url-pattern>/EditGyaeno</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ExpertLogin</servlet-name>
+		<servlet-class>com.experts.ExpertLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ExpertLogin</servlet-name>
+		<url-pattern>/ExpertLogin</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ChangePasss</servlet-name>
+		<servlet-class>com.experts.ChangePasss</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangePasss</servlet-name>
+		<url-pattern>/ChangePasss</url-pattern>
+	</servlet-mapping>
+	
+	
+		<servlet>
+		<servlet-name>USerlogin</servlet-name>
+		<servlet-class>com.user.USerlogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>USerlogin</servlet-name>
+		<url-pattern>/USerlogin</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>ChangePassUser</servlet-name>
+		<servlet-class>com.user.ChangePassUser</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangePassUser</servlet-name>
+		<url-pattern>/ChangePassUser</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>FAQ</servlet-name>
+		<servlet-class>com.user.FAQ</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FAQ</servlet-name>
+		<url-pattern>/FAQ</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>UserView</servlet-name>
+		<servlet-class>com.user.UserView</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserView</servlet-name>
+		<url-pattern>/UserView</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UsercommonQuestions</servlet-name>
+		<servlet-class>com.user.UsercommonQuestions</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UsercommonQuestions</servlet-name>
+		<url-pattern>/UsercommonQuestions</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>PrivatequestionExpert</servlet-name>
+		<servlet-class>com.user.PrivatequestionExpert</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PrivatequestionExpert</servlet-name>
+		<url-pattern>/PrivatequestionExpert</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>ViewAllCommonpostings</servlet-name>
+		<servlet-class>com.user.ViewAllCommonpostings</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ViewAllCommonpostings</servlet-name>
+		<url-pattern>/ViewAllCommonpostings</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>ViewRateGyano</servlet-name>
+		<servlet-class>com.user.ViewRateGyano</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ViewRateGyano</servlet-name>
+		<url-pattern>/ViewRateGyano</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>AnswerCommonQuestions</servlet-name>
+		<servlet-class>com.experts.AnswerCommonQuestions</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AnswerCommonQuestions</servlet-name>
+		<url-pattern>/AnswerCommonQuestions</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>AnswerPrivateQuestions</servlet-name>
+		<servlet-class>com.experts.AnswerPrivateQuestions</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AnswerPrivateQuestions</servlet-name>
+		<url-pattern>/AnswerPrivateQuestions</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UnansweredQuestion</servlet-name>
+		<servlet-class>com.experts.UnansweredQuestion</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UnansweredQuestion</servlet-name>
+		<url-pattern>/UnansweredQuestion</url-pattern>
+	</servlet-mapping>
+	
+	
+</web-app>
